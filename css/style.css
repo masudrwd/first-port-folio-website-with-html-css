@@ -1,0 +1,169 @@
+*{
+   padding: 0px;
+   margin: 0px;
+}
+body{
+   padding: 0;
+   margin: 0;
+   font-family: 'Source Sans Pro', sans-serif;
+}
+ /* Header section started  */
+.header{
+   background-image: url(../images/header-bg.png);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 600px;
+}
+.width-font{
+   width: 45%;
+   float: left;
+   margin: 185px 4px 12px 173px;
+}
+.width-img{
+   width: 40%;
+   float: left;
+   margin-top: 80px;
+}
+.width-img img{
+   width: 400px;
+}
+.width-font h1{
+   font-weight: 600;
+   color: #ec4c7a;
+   font-size: 50px;
+   margin-bottom: 20px;
+}
+.width-font h2{
+   font-weight: 500;
+   font-size: 40px;
+   margin-bottom: 1px;
+}
+.width-font p{
+   font-weight: 400;
+   color: #707070;
+}
+.buttons{
+   text-decoration: none;
+   color: white;
+   background-color: #ec4c7a;
+   padding: 9px 30px;
+   border-radius: 5px;
+   text-transform: uppercase;
+   display: inline-block;
+   margin-top: 20px;
+}
+ /* Header section end  */
+
+ /* Biography section started  */
+.biosec{
+   background-image: url(../images/biography-bg.png);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 600px;
+}
+.twincle{
+   margin: 0px 0px 0px 100px;
+}
+.twincle-font{
+   margin: 240px 30px 0px 50px;
+}
+.twincle-font p{
+   margin: 20px 0px;
+}
+.butt{
+   margin: 0;
+   margin-top: 5px;
+}
+.buttons:hover{
+   background-color: orangered;
+}
+ /* Biography section end  */
+
+  /* Portfolio section started  */
+  .portfolio-sec{
+   background-image: url(../images/latest-work-bg.png);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 445px;
+   background-size: cover;
+  }
+.tit{
+   font-weight: 600;
+   color: #202428e0;
+   font-size: 40px;
+   text-align: center;
+   margin-top: 60px;
+}
+.images{
+   text-align: center;
+}
+.images img{
+   width: 280px;
+   padding: 70px 30px 20px;
+}
+
+/* portfolio section started  */
+
+ /* Client Review section started */
+ footer{
+   background-image: url(../images/footer-bg.png);
+   background-repeat: no-repeat;
+   width: 100%;
+   height: 550px;
+   background-size: cover;
+ }
+.first{
+   text-align: center;
+}
+.tutt{
+   margin-top: 0px;
+   margin-bottom: 50px;
+}
+.first h4{
+   font-weight: 600;
+   font-size: 20px;
+   color: #181d21;
+   margin-bottom: 15px;
+}
+.first h5{
+   font-weight: 600;
+   font-size: 17px;
+   color: #6d6d6d;
+   margin-bottom: 60px;
+}
+.first p{
+   color: 323232;
+   font-size: 17px;
+   font-weight: 600;
+}
+.ppp{
+   display: block;
+}
+.second{
+   background-image: linear-gradient(45deg,#ec5299, #ed4b6e);
+   width: 50%;
+   text-align: center;
+   margin: 10px auto;
+   padding: 10px;
+   box-sizing: border-box;
+   border-radius: 7px;
+   margin-top: 50px;
+}
+.second p, .second h2{
+   color: white;
+}
+.second p{
+   font-weight: 600;
+   font-size: 17px;
+   margin-top: 15px;
+}
+.second h2{
+   font-weight: 500;
+   font-size: 25px;
+   margin: 10px 0px 15px;
+}
+.last{
+   text-align: center;
+   margin: 60px 0px 20px;
+   color: gray;
+}
